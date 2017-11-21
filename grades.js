@@ -5,7 +5,7 @@ var gradeC = 0;
 var gradeD = 0;
 var gradeF = 0;
 var highGrade = 0;
-var lowGrade = 0;
+var lowGrade = 100;
 
 for (var i = 0; i < scores.length; i++) {
     if (scores[i] >= 91) {
@@ -25,7 +25,6 @@ for (var i = 0; i < scores.length; i++) {
     }
     if (scores[i] <= 60) {
         gradeF += 1;
-        lowGrade = scores[i];
         if (scores[i] < lowGrade) {
             lowGrade = scores[i];
         }
