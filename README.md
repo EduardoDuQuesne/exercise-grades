@@ -1,5 +1,7 @@
-# Grades
-## Nashville Software School: Front-end Exercise
+# Nashville Software School: Front-end Exercise
+
+## Grades
+
 
 ## Requirements
 
